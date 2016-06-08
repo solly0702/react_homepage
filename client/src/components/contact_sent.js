@@ -12,7 +12,7 @@ class ContactSent extends Component {
         </div>
         <div class="row greeting">
           <div class="col-md-8 col-md-offset-2">
-            <h4 class="center">I appriciate your comments, and I will response your comments as soon as possible</h4>
+            <h4 class="center">I appreciate your comments, and I will respond as soon as possible.</h4>
             <h5 class="center margin-top">Thank you again!</h5>
           </div>
         </div>

@@ -19,8 +19,8 @@ class Footer extends Component {
           </div>
           <div class="col-md-3 center">
             <p class="bold margin-bottom-footer">Follow me</p>
-            <a href="https://github.com/solly0702" class="link"><img class="linked-in" src={linkedIn} alt="linked-In" /></a>
-            <a href="https://www.linkedin.com/in/han-sol-lee-99284287" class="link"><img class="git-hub" src={gitHub} alt="git-Hub" /></a>
+            <a href="https://github.com/solly0702" class="link"><img class="linked-in" src={gitHub} alt="linked-In" /></a>
+            <a href="https://www.linkedin.com/in/han-sol-lee-99284287" class="link"><img class="git-hub" src={linkedIn} alt="git-Hub" /></a>
           </div>
           <div class="col-md-3 center">
             <p class="bold margin-bottom-footer">About this site</p>

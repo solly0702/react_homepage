@@ -29,7 +29,7 @@ class Header extends Component {
               <Link to="/" class="nav-link">HOME</Link>
             </li>
             <li class="nav-item">
-              <a href="../../image/resume.pdf" class="nav-link">RESUME</a>
+              <a href="../../images/resume.pdf" class="nav-link">RESUME</a>
             </li>
             <li class="nav-item">
               <Link to="/project" class="nav-link">PROJECT</Link>

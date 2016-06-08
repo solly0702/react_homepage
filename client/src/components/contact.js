@@ -28,8 +28,8 @@ class Contact extends Component {
         <div class="row">
           <div class="col-md-12">
             <h2 class="center margin-bottom">Contact</h2>
-            <p class="center">You can email me by submitting this form below, clicking email at the bottom or call me.</p>
-          <p class="center bold">I appricate any words from you. Thank you</p>
+            <p class="center">You can contact me by submitting the form below, clicking my email at the bottom of the page, or calling me at the phone number below.</p>
+          <p class="center bold">I appreciate hearing from you. Thank you!</p>
           </div>
         </div>
       <div class="row">
@@ -56,7 +56,7 @@ class Contact extends Component {
               {content.touched && content.error && <div class="alert alert-danger" role="alert">{content.error}</div>}
               </div>
               {this.renderAlert()}
-              <button action="submit" class="btn btn-primary btn-lg pull-xs-right margin-bottom">Send Email to Solly</button>
+              <button action="submit" class="btn btn-primary btn-lg pull-xs-right margin-bottom">Send Email to Sol</button>
             </form>
           </div>
         </div>

@@ -17,30 +17,30 @@ class Home extends Component {
                 <img class="profile" src={myImg} alt="myImg" />
               </div>
               <div class="col-xs-8 col-xs-offset-1">
-                <h3 class="margin-top">Hello!</h3>
-                <p class="intro">I am a Full-Stack Web Developer with great enthusiasm for learning more. I like to explain and describe things with lines of codes and demonstrate the world with pixels.</p>
+                <h2 class="margin-top">Hello!</h2>
+                <p class="intro lead">I am a Full-Stack Web Developer with great enthusiasm for learning. I like to tell stories with lines of code and demonstrate the world with pixels.</p>
               </div>
             </div>
           </div>
         </div>
         <div class="container">
-          <h3 class="margin-bottom center">Skills I have</h3>
+          <h3 class="margin-bottom center">Skills</h3>
           <div class="row">
-            <div class="col-sm-6">
-              <h4>Langage</h4>
+            <div class="col-sm-6 center">
+              <h4>Languages</h4>
               <p>JavaScript, ECMA-Script6, Python, Ruby, HTML, CSS, SASS</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 center">
               <h4>Databases</h4>
               <p>MySQL, SQLite, MangoDB, PostgreSQL</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 center">
               <h4>Frameworks & Libraries</h4>
             <p>Node.js, Express.js, jQuery, AngularJS, ReactJS, Ruby on Rails, Django, Flask, Google-API, AJAX, lodash, Webpack, gulp, babel</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 center">
               <h4>Development Tools</h4>
               <p>Sublime Text, Atom, Terminal, Git/Github, Wireframe, ERD, NPM, Bower, Restful-Architecture, Object-Oriented Programming</p>
             </div>
