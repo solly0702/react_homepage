@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+  body {
+    padding-top: 113px;
+  }
+
+  .profile {
+    border: 4px double black;
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .linked-in {
+    width: 13%;
+    margin-right: 10px;
+  }
+
+  .git-hub {
+    width: 13%;
+  }
+
+  .alert {
+    margin-top: 10px;
+  }
+
+  hr {
+    size: 3px;
+    border-color: black;
+    color: black;
+    background-color: black;
+  }
+
+  .margin-bottom {
+    margin-bottom: 20px;
+  }
+
+  .margin-top {
+    margin-top: 20px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #B0D1FB;
+    min-height: 80px;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .margin-bottom-footer {
+    margin-bottom: 10px;
+  }
+
+
+@media all and (max-width: 480px) {
+  .navbar-nav {
+    margin-left: 15px;
+  }
+  .toggle-true {
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 20px;
+  }
+  .other-true {
+    margin-top: 55px;
+  }
+}
+
+@media all and (min-width: 481px) {
+  .navbar-nav {
+    margin-top: 55px;
+  }
+  .project {
+    margin-top: 20px;
+  }
+  .contact-sent {
+    margin-top: 135px;
+    margin-bottom: 135px;
+  }
+}
