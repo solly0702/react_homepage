@@ -17,6 +17,8 @@ app.use(bodyParser.json({ type: "*/*" }));
 // DB and Route setup
 require("./config/routes.js")(app);
 
+app.use(express.static(path.join(__dirname, '../client')));
+
 // Server Setup
 const port = process.env.PORT || 8000;
 const server = http.createServer(app);
