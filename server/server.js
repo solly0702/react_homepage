@@ -18,6 +18,9 @@ app.use(bodyParser.json({ type: "*/*" }));
 require("./config/routes.js")(app);
 
 app.use(express.static(path.join(__dirname, '../client')));
+app.get("*", function(req, res) {
+  res.sendFile(path.resolve(__dirname, "../client", "index.html"))
+});
 
 // Server Setup
 const port = process.env.PORT || 8000;
