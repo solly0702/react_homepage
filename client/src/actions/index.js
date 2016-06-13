@@ -6,7 +6,7 @@ import {
   EMAIL_SEND_ERROR
 } from "./types"
 
-const ROOT_URL = "172.31.60.7:8000" // "http://localhost:8000"
+const ROOT_URL = "http://172.31.60.7:8000" // "http://localhost:8000"
 
 export function toggleCtrl(collapse) {
   return {
