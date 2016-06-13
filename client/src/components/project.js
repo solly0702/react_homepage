@@ -35,9 +35,9 @@ class Project extends Component {
           </div>
         </div>
         <hr />
-        <div class="row">
+        <div class="row margin-bottom">
           <div class="col-xs-3">
-            <img class="secret-board" src="" alt="secret-board" />
+            <img class="secret-board" src="" alt="" />
           </div>
           <div class="col-xs-8 col-xs-offset-1">
             <h4>Description</h4>

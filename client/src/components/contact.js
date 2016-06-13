@@ -28,8 +28,8 @@ class Contact extends Component {
         <div class="row">
           <div class="col-md-12">
             <h2 class="center margin-bottom">Contact</h2>
-            <p class="center">You can contact me by submitting the form below, clicking my email at the bottom of the page, or calling me at the phone number below.</p>
-          <p class="center bold">I appreciate hearing from you. Thank you!</p>
+            <p class="center margin-bottom">You can contact me by submitting the form below, clicking my email at the bottom of the page, or calling me at the phone number below.</p>
+          <p class="center lead">I appreciate hearing from you. Thank you!</p>
           </div>
         </div>
       <div class="row">

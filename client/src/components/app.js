@@ -5,9 +5,10 @@ import Footer from "./footer"
 
 class App extends Component {
   render() {
+    let { pathname } = this.props.location
     return (
       <div>
-        <Header />
+        <Header pathname={pathname}/>
         {this.props.children}
         <Footer />
       </div>

@@ -7,7 +7,7 @@ import gitHub from "../../images/git_hub.jpg"
 class Footer extends Component {
   render() {
     return (
-      <div class="container-fluid footer">
+      <div class="container-fluid footer margin-top">
         <div class="row">
           <div class="col-md-3 center">
             <p class="bold margin-bottom-footer">Call</p>

@@ -18,16 +18,42 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
+  @font-face {
+    font-family: "ubuntu-font";
+    src: url("ubuntu/Ubuntu-R.ttf");
+    font-size: 1em;
+  }
+
+  @font-face {
+    font-family: "ubuntu-bold";
+    src: url("ubuntu/Ubuntu-B.ttf");
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  @font-face {
+    font-family: "lobster";
+    src: url("lobster/lobster.otf");
+    font-size: 1em;
+  }
+
   body {
     padding-top: 113px;
+    font-family: "ubuntu-font";
+  }
+  /*Header*/
+  .navbar-brand p {
+    font-family: "ubuntu-bold";
+    font-size: 1.4em;
+    margin: 5px 0 10px 0;
   }
 
-  .profile {
-    border: 4px double black;
-    border-radius: 50%;
-    width: 100%;
+  .navbar-brand h2 {
+    font-family: "lobster";
+    font-size: 1.6em;
   }
 
+  /*Footer */
   .project {
     width: 100%;
     margin-top: 20px;
@@ -41,6 +67,56 @@ time, mark, audio, video {
 
   .git-hub {
     width: 13%;
+  }
+
+  /*Body*/
+
+
+  .profile {
+    border: 4px double black;
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  .jumbotron {
+    background: url("../images/studying_cat.jpg");
+    width: 100%;
+    background-size: cover;
+  }
+
+  .jumbo-header {
+    font-family: "ubuntu-bold";
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    color: rgb(211,211,211);
+  }
+
+  .intro {
+    color: rgb(211,211,211);
+  }
+
+  .container h2 {
+    font-family: "ubuntu-bold";
+    font-size: 2.0em;
+  }
+
+  .container h3 {
+    font-size: 1.8em;
+  }
+
+  .container h4 {
+    font-fmaily: "ubuntu-italic";
+    font-size: 1.4em;
+    margin: 10px 0 10px 0;
+    font-style: italic;
+    color: rgb(118, 161, 69);
+  }
+
+  .container h5 {
+    font-size: 1.2em;
+    margin: 10px 0 10px 0;
+    color: rgb(204, 14, 21);
+    font-style: italic;
   }
 
   .alert {
@@ -102,6 +178,9 @@ time, mark, audio, video {
 @media all and (min-width: 481px) {
   .navbar-nav {
     margin-top: 55px;
+  }
+  .navbar-brand {
+    margin-bottom: 10px;
   }
   .project {
     margin-top: 20px;
