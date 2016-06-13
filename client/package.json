@@ -7,7 +7,7 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
-    "build": "webpack --progress --profile --colors",
+    "build": "NODE_ENV=production webpack --progress --profile --colors",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --content-base ./ --hot --inline --progress --colors --port 8080"
   },
   "author": "Sol Lee <solly0702@gmail.com>",
