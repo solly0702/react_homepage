@@ -4,6 +4,7 @@ import { Link } from "react-router"
 import linkedIn from "../../images/linked_in.jpg"
 import gitHub from "../../images/git_hub.jpg"
 
+
 class Footer extends Component {
   render() {
     return (

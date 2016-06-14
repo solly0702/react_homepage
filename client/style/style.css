@@ -69,9 +69,8 @@ time, mark, audio, video {
     width: 13%;
   }
 
+
   /*Body*/
-
-
   .profile {
     border: 4px double black;
     border-radius: 50%;
@@ -79,20 +78,16 @@ time, mark, audio, video {
   }
 
   .jumbotron {
-    background: url("../images/studying_cat.jpg");
+    background: url("../images/lib_jumbo.jpg");
     width: 100%;
     background-size: cover;
+    color: rgb(179, 229, 252);
   }
 
   .jumbo-header {
     font-family: "ubuntu-bold";
     font-size: 2.0em;
     margin-bottom: 10px;
-    color: rgb(211,211,211);
-  }
-
-  .intro {
-    color: rgb(211,211,211);
   }
 
   .container h2 {
@@ -169,6 +164,10 @@ time, mark, audio, video {
   }
   .project {
     margin-top: 20px;
+  }
+  .profile {
+    margin-top: 25px;
+    margin-left: 20px;
   }
   .other-true {
     margin-top: 55px;
